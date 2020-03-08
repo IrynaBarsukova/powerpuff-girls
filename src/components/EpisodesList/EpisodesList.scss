@@ -1,0 +1,22 @@
+.episodes {
+  margin-top: 30px;
+}
+
+.episodes__title {
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.episodesList {
+  display: flex;
+  justify-content: space-between;
+  overflow-y: scroll;
+}
+
+.episodesList__episode {
+  min-width: 250px;
+
+  &:not(:first-child) {
+    margin-left: 20px;
+  }
+}

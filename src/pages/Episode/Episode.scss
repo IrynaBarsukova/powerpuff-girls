@@ -1,0 +1,17 @@
+.episode {
+  margin-top: 20px;
+}
+
+.episode__button {
+  width: 60px;
+  color: #f571b4;
+  font-size: 14px;
+  text-align: left;
+  padding: 5px 0;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

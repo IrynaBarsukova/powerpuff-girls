@@ -1,0 +1,15 @@
+.home {
+  padding: 20px 0;
+}
+
+.home__link {
+  align-self: flex-start;
+  color: white;
+  padding: 10px;
+  background: #f571b4;
+  border: 2px solid black;
+
+  &:hover {
+    background: lighten( #f571b4, 10% )
+  }
+}

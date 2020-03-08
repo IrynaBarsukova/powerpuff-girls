@@ -1,0 +1,17 @@
+.show {
+  padding: 20px 0;
+}
+
+.show__title {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.show__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.show__summary {
+  margin-left: 20px;
+}
