@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .episodes {
   margin-top: 30px;
 }
@@ -18,5 +20,17 @@
 
   &:not(:first-child) {
     margin-left: 20px;
+  }
+}
+
+@media (max-width: $media-breakpoint-mobile) {
+  .episodesList {
+    flex-direction: column;
+  }
+
+  .episodesList__episode {
+    &:not(:first-child) {
+      margin: 20px 0 0;
+    }
   }
 }

@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .home {
   padding: 20px 0;
 }
@@ -6,10 +8,10 @@
   align-self: flex-start;
   color: white;
   padding: 10px;
-  background: #f571b4;
-  border: 2px solid black;
+  background: $pink;
+  border: 2px solid $black;
 
   &:hover {
-    background: lighten( #f571b4, 10% )
+    background: lighten( $pink, 10% )
   }
 }

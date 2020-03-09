@@ -9,7 +9,7 @@ function EntityDetails({ entity }) {
             <div className={styles.entity}>
                 <h2 className={styles.entity__title}>{entity.name}</h2>
                 <section className={styles.entity__details}>
-                    <img src={entity.image.medium} alt={entity.name}/>
+                    <img className={styles.entity__image} src={entity.image.medium} alt={entity.name}/>
                     <p
                         className={styles.entity__summary}
                         dangerouslySetInnerHTML={{ __html: sanitizeHtml(entity.summary) || '' }}

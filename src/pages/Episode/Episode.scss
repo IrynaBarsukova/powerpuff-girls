@@ -1,12 +1,15 @@
+@import '../../styles/variables';
+
 .episode {
   margin-top: 20px;
 }
 
 .episode__button {
   width: 60px;
-  color: #f571b4;
+  color: $pink;
   font-size: 14px;
   text-align: left;
+  background: $white;
   padding: 5px 0;
   border: none;
   cursor: pointer;

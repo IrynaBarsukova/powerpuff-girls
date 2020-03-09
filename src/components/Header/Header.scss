@@ -1,13 +1,14 @@
+@import '../../styles/variables';
+
 .header {
   padding: 17px 0;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-color: #f571b4;
+  border-color: $pink;
 
   &__title {
     visibility: hidden;
     font-size: 0;
-    color: #607d8b;
     margin: 0;
   }
 }
