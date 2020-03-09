@@ -15,7 +15,7 @@ describe('ShowSaga', () => {
         },
     };
 
-    test('should load show with episodes', () => {
+    it('should load show with episodes', () => {
         return expectSaga(showSagas.loadShow, action)
             .provide([
                 [matchers.call.fn(getShow), { data: mockShow }],
@@ -28,7 +28,7 @@ describe('ShowSaga', () => {
             .run();
     });
 
-    test('should handle error if it happened during loading', () => {
+    it('should handle error if it happened during loading', () => {
         const error = new Error('404 Show not found');
 
         return expectSaga(showSagas.loadShow, action)

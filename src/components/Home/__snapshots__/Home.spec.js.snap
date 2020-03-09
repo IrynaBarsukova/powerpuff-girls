@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render Home 1`] = `
+<div>
+  <div
+    class="home"
+  >
+    <div
+      class="container"
+    >
+      <a
+        class="home__link"
+        href="/shows/6771"
+      >
+        Watch show
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -15,7 +15,7 @@ Container.propTypes = {
     /**
      * Container's inner content
      */
-    children: PropTypes.object,
+    children: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
 };
 
 export default Container;

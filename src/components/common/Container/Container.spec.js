@@ -7,13 +7,7 @@ describe('<Container />', () => {
     it('should render Container', () => {
         const { container } = render(<Container />);
 
-        expect(container).toMatchInlineSnapshot(`
-            <div>
-              <div
-                class="container"
-              />
-            </div>
-        `);
+        expect(container).toMatchSnapshot();
     });
 
     it('should render inner content', () => {

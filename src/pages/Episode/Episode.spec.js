@@ -23,49 +23,7 @@ describe('<Episode />', () => {
             { route: `shows/6771/episodes/${mockEpisode.id}` },
         );
 
-        expect(container).toMatchInlineSnapshot(`
-            <div>
-              <div
-                class="episode"
-              >
-                <div
-                  class="container"
-                >
-                  <button
-                    class="episode__button"
-                    type="button"
-                  >
-                    Go back
-                  </button>
-                  <div
-                    class="entity"
-                  >
-                    <h2
-                      class="entity__title"
-                    >
-                      Bye Bye, Bellum
-                    </h2>
-                    <section
-                      class="entity__details"
-                    >
-                      <img
-                        alt="Bye Bye, Bellum"
-                        class="entity__image"
-                        src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132631.jpg"
-                      />
-                      <p
-                        class="entity__summary"
-                      >
-                        <p>
-                          The Mayor of Townsville overworks the Powerpuff Girls after his secretary Sara Bellum quits
-                        </p>
-                      </p>
-                    </section>
-                  </div>
-                </div>
-              </div>
-            </div>
-        `);
+        expect(container).toMatchSnapshot();
     });
 
     it('should handle Go Back button click', () => {

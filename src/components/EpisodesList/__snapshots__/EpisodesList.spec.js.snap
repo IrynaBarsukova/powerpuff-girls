@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EpisodesList /> should render EpisodesList 1`] = `
+<div>
+  <div
+    class="episodes"
+  >
+    <h3
+      class="episodes__title"
+    >
+      Episodes
+    </h3>
+    <div
+      class="episodesList"
+    >
+      <div
+        class="episodesList__episode"
+      >
+        <a
+          href="/shows/6771/episodes/657308"
+        >
+          <img
+            alt="Escape from Monster Island"
+            src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132617.jpg"
+          />
+          <p>
+            Escape from Monster Island
+          </p>
+          <p>
+            1
+            x
+            1
+          </p>
+        </a>
+      </div>
+      <div
+        class="episodesList__episode"
+      >
+        <a
+          href="/shows/6771/episodes/691594"
+        >
+          <img
+            alt="Bye Bye, Bellum"
+            src="http://static.tvmaze.com/uploads/images/medium_landscape/53/132631.jpg"
+          />
+          <p>
+            Bye Bye, Bellum
+          </p>
+          <p>
+            1
+            x
+            7
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

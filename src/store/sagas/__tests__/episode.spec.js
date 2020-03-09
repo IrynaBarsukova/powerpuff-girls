@@ -8,7 +8,7 @@ import { getEpisode } from '../../../services/show.service';
 import mockEpisode  from '../../../mocks/episode.mock';
 
 describe('EpisodeSaga', () => {
-    test('should load episode', () => {
+    it('should load episode', () => {
         const action = {
             type: actionTypes.LOAD_EPISODE_STARTED,
             payload: {
@@ -25,7 +25,7 @@ describe('EpisodeSaga', () => {
             .run();
     });
 
-    test('should handle error if it happened during loading', () => {
+    it('should handle error if it happened during loading', () => {
         const action = {
             type: actionTypes.LOAD_EPISODE_STARTED,
             payload: {
