@@ -4,7 +4,7 @@ import actionTypes from '../actions/episode/actionTypes';
 import { loadEpisodeSucceeded, loadEpisodeFailed } from '../actions/episode';
 import { getEpisode } from '../../services/show.service';
 
-function* loadEpisode({ payload: { id } }) {
+export function* loadEpisode({ payload: { id } }) {
     try {
         const episode = yield call(getEpisode, id);
         yield put(loadEpisodeSucceeded(episode.data))

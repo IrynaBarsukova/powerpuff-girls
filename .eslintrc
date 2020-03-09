@@ -44,6 +44,16 @@
       "jsx": true
     }
   },
+  "overrides": [
+    {
+      "files": ["*.spec.js", "*.mock.js"],
+      "rules": {
+        "max-len": [0],
+        "comma-dangle": [0],
+        "import/no-unresolved": [0]
+      }
+    }
+  ],
   "env": {
     "es6": true,
     "browser": true,

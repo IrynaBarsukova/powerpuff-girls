@@ -23,3 +23,7 @@ Your app is ready to be deployed!
 ### `yarn build:dev`
 
 Builds the app for development to the `build` folder.<br />
+
+### `yarn test`
+
+Runs all available tests

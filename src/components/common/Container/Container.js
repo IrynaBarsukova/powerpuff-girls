@@ -1,13 +1,21 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import styles from './Container.scss';
 
-const Container = (props) => {
+const Container = ({ children }) => {
     return (
         <div className={styles.container}>
-            {props.children}
+            {children}
         </div>
     );
+};
+
+Container.propTypes = {
+    /**
+     * Container's inner content
+     */
+    children: PropTypes.object,
 };
 
 export default Container;

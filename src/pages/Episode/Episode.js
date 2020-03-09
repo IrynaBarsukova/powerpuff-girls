@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from 'react-redux';
 
 import Container from '../../components/common/Container/Container';
 import EntityDetails from '../../components/EntityDetails/EntityDetails';
 import { loadEpisodeStarted, clearEpisode } from '../../store/actions/episode';
-import styles from  './Episode.scss';
+import styles from './Episode.scss';
 
 function Episode() {
     const { episodeId } = useParams();

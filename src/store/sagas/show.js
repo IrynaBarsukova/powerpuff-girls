@@ -4,7 +4,7 @@ import actionTypes from '../actions/show/actionTypes';
 import { loadShowSucceeded, loadShowFailed } from '../actions/show';
 import { getShow, getEpisodes } from '../../services/show.service';
 
-function* loadShow({ payload: { id } }) {
+export function* loadShow({ payload: { id } }) {
     try {
         const [show, episodes] = yield all([
             call(getShow, id),
